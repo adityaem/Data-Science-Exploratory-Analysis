@@ -27,11 +27,10 @@ The Process is broken down into 5 key R Scripts
 <li>Script 5: plot4.R - Combines plots 2 & 3 and further breaks down the Voltage Levels for the same days as a possible correlation to #2 and the lower right quadrant displays the Global Reactive Power by day as a possible correlation to the Metering Activity in the same time frame. </li>
 </ol>
 
-To Execute these scitpts
+To Execute these scripts
 
 Create a Folder(s) in you working directory labelled as follows
 <br>/ExData 
-<br>/ExData/data 
 <br>/ExData/scripts
 <br>/ExData/outputs
  
