@@ -5,6 +5,8 @@ Dataset can be downloaded from: # Dataset can be downloaded from :https://d396qu
 The project is broken up into two modules 
 1. Loading the relevant data required efficiently
 2. Plotting the data as required by the project objectives
+
+To support the plots required listed below are some of the key measures used
 <ol>
 <li><b>Date</b>: Date in format dd/mm/yyyy </li>
 <li><b>Time</b>: time in format hh:mm:ss </li>
