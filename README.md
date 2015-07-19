@@ -1,5 +1,10 @@
 # Exploratory Data Analysis - Course Project 1
-The Objective of this course assignment can be found at: https://github.com/adityaem/ExData_Plotting1
+
+
+The Objective of this course assignment can be found at: https://github.com/adityaem/ExData_Plotting1 - This is forked from Dr Peng.
+
+#All Plot outputs can be found under ExData\Outputs
+
 Dataset can be downloaded from: # Dataset can be downloaded from :https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
 The project is broken up into two modules 
