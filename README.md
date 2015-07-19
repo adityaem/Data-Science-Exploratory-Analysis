@@ -3,7 +3,7 @@
 
 The Objective of this course assignment can be found at: https://github.com/adityaem/ExData_Plotting1 - This is forked from Dr Peng.
 
-#All Plot outputs can be found under ExData\Outputs
+<B>All Plot outputs can be found under ExData\Outputs(https://github.com/adityaem/Data-Science-Exploratory-Analysis/tree/master/ExData/outputs) </B>
 
 Dataset can be downloaded from: # Dataset can be downloaded from :https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
