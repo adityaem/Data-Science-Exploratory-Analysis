@@ -1,7 +1,7 @@
 # Exploratory Data Analysis - Course Project 2
-<B>All Plot outputs can be found under ExData\Outputs(https://github.com/adityaem/Data-Science-Exploratory-Analysis/tree/master/ExData/outputs) </B>
+<B>All Plot outputs can be found under ExData2\Outputs </B>
 
-<B>All Scripts can be found under ExData\Outputs(https://github.com/adityaem/Data-Science-Exploratory-Analysis/tree/master/ExData/outputs) </B>
+<B>All Scripts can be found under ExData2\Scripts </B>
 
 <B>Introduction</B>
 
