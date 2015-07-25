@@ -1,24 +1,28 @@
-# Exploratory Data Analysis - Course Project 1
+# Exploratory Data Analysis - Course Project 2
 <B>All Plot outputs can be found under ExData\Outputs(https://github.com/adityaem/Data-Science-Exploratory-Analysis/tree/master/ExData/outputs) </B>
 
 Dataset can be downloaded from: # Dataset can be downloaded from :https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
-The project is broken up into two modules 
-1. Loading the relevant data required efficiently
-2. Plotting the data as required by the project objectives
+Assignment
 
-To support the plots required listed below are some of the key measures used
-<ol>
-<li><b>Date</b>: Date in format dd/mm/yyyy </li>
-<li><b>Time</b>: time in format hh:mm:ss </li>
-<li><b>Global_active_power</b>: household global minute-averaged active power (in kilowatt) </li>
-<li><b>Global_reactive_power</b>: household global minute-averaged reactive power (in kilowatt) </li>
-<li><b>Voltage</b>: minute-averaged voltage (in volt) </li>
-<li><b>Global_intensity</b>: household global minute-averaged current intensity (in ampere) </li>
-<li><b>Sub_metering_1</b>: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered). </li>
-<li><b>Sub_metering_2</b>: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. </li>
-<li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
-</ol>
+The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
+
+Questions
+
+You must address the following questions and tasks in your exploratory analysis. For each question/task you will need to make a single plot. Unless specified, you can use any plotting system in R to make your plot.
+
+Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
+Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
+Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+
+Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
+How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
+Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+
 The Process is broken down into 5 key R Scripts
 <ol>
 <li>Script 1: Load Data Script (power_data_load.R) - subsets the data to the time period specified. (Future: Date Parameters as Inputs) </li>
@@ -38,7 +42,5 @@ Create a Folder(s) in you working directory labelled as follows
  Download the compressed zip file and extract it to the /ExData/data folder
  Copy/download the .R scripts from :https://github.com/adityaem/Data-Science-Exploratory-Analysis/tree/master/ExData/scripts
  
- Now execute the scripts for the plots you would like to generate. If you would want to change the dates for now you will need to modify Script 1.
- 
-The Objective of this course assignment can be found at: https://github.com/adityaem/ExData_Plotting1 - This is forked from Dr Peng.
+
  
